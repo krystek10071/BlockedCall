@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BlokowaniePolaczen2</string>
+    <string name="buttonContacts">Pokaż kontakty</string>
 </resources>
