@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button1=(Button) findViewById(R.id.buttonContacts);
+        FrameContactsFragment frameContactsFragment=(FrameContactsFragment) getFragmentManager().findFragmentById(R.id.fragment);
     }
 
     public void showContacts(View view){
