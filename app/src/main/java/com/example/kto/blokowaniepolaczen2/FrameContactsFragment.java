@@ -33,8 +33,6 @@ public class FrameContactsFragment extends Fragment {
        data.add("1");
         data.add("2");
         data.add("3");
-        data.add("4");
-        data.add("5");
         View view=inflater.inflate(R.layout.lv_layout_general,container,false);
         ListView lv;
         lv = (ListView) view.findViewById(R.id.listview);
